@@ -1,3 +1,8 @@
+/*
+    If a word is anagram of another word it must contain exactly the same number of letters
+    and each letter must be used exactly the same number of times in both words
+ */
+
 // sorted solution
 function isAnagram(s: string, t: string): boolean {
     if(s.length !== t.length) {
